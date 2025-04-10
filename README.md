@@ -39,11 +39,11 @@ P(T|W) = argmax_T P(W|T)P(T_i) \quad \text{(Unigram)}
 ```
 
 ```math
-P(T|W) = \argmax_T P(W|T)P(T_i|T_{i-1}) \quad \text{(Bigram)}
+P(T|W) = argmax_T P(W|T)P(T_i|T_{i-1}) \quad \text{(Bigram)}
 ```
 
 ```math
-P(T|W) = \argmax_T P(W|T)P(T_i|T_{i-1},T_{i-2}) \quad \text{(Trigram)}
+P(T|W) = argmax_T P(W|T)P(T_i|T_{i-1},T_{i-2}) \quad \text{(Trigram)}
 ```
 
 so for calculating the `P(T|W)` we should calculate the `emission` and `transition` model.
