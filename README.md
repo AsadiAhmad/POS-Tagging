@@ -18,6 +18,14 @@ POS tagging using the Viterbi algorithm and n-gram models.
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/POS-Tagging/blob/main/Code/POS_Tagging.ipynb)
 
+## Dataset
+
+the dataset is a train set and the test set we create the validation set from the train set for validating our model. 
+
+here is part of the train set frame :
+
+here is part of the test set frame :
+
 ## License
 
 This project is licensed under the MIT License.
