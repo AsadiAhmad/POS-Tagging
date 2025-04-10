@@ -48,6 +48,8 @@ P(T|W) = argmax_T P(W|T)P(T_i|T_{i-1},T_{i-2}) \quad \text{(Trigram)}
 
 so for calculating the `P(T|W)` we should calculate the `emission` and `transition` model.
 
+the `P(W|T)` is the `emission` section and the `P(T_i)` is the transition section calculated by ngram
+
 ## License
 
 This project is licensed under the MIT License.
