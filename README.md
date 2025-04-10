@@ -24,7 +24,11 @@ the dataset is a train set and the test set we create the validation set from th
 
 here is part of the train set frame :
 
+<img src="/Pictures/1.png"/>
+
 here is part of the test set frame :
+
+<img src="/Pictures/2.png"/>
 
 ## License
 
