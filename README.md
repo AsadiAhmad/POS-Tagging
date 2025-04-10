@@ -35,7 +35,7 @@ here is part of the test set frame :
 here is our formula we need
 
 ```math
-P(T|W) = \argmax_T P(W|T)P(T_i) \quad \text{(Unigram)}
+P(T|W) = argmax_T P(W|T)P(T_i) \quad \text{(Unigram)}
 ```
 
 ```math
