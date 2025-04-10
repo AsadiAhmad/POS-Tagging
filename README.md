@@ -17,3 +17,7 @@ POS tagging using the Viterbi algorithm and n-gram models.
 ## Run the Notebook on Google Colab
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/POS-Tagging/blob/main/Code/POS_Tagging.ipynb)
+
+## License
+
+This project is licensed under the MIT License.
