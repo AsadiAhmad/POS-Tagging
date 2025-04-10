@@ -70,8 +70,7 @@ F1-score: 40.7354
 Bigram :
 
 
-Accuracy: 92.4962
-
+Accuracy: 92.4962\
 Precision: 96.1019
 
 Recall: 96.1019
