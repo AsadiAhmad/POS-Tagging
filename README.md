@@ -46,47 +46,32 @@ P(T|W) = argmax_T P(W|T)P(T_i|T_{i-1}) \quad \text{(Bigram)}
 P(T|W) = argmax_T P(W|T)P(T_i|T_{i-1},T_{i-2}) \quad \text{(Trigram)}
 ```
 
-so for calculating the `P(T|W)` we should calculate the `emission` and `transition` model.
-
+so for calculating the `P(T|W)` we should calculate the `emission` and `transition` model.\
 the `P(W|T)` is the `emission` section and the `P(Ti)` is the transition section calculated by ngram
 
 ## Conclusion
 
 here is different accuracy from different N-gram model we can compare them together :
 
-
 Uni-gram :
 
-
-Accuracy: 25.5772
-
-Precision: 40.7354
-
-Recall: 40.7354
-
+Accuracy: 25.5772\
+Precision: 40.7354\
+Recall: 40.7354\
 F1-score: 40.7354
-
 
 Bigram :
 
-
 Accuracy: 92.4962\
-Precision: 96.1019
-
-Recall: 96.1019
-
+Precision: 96.1019\
+Recall: 96.1019\
 F1-score: 96.1019
-
 
 Trigram :
 
-
-Accuracy: 92.3538
-
-Precision: 96.0249
-
-Recall: 96.0249
-
+Accuracy: 92.3538\
+Precision: 96.0249\
+Recall: 96.0249\
 F1-score: 96.0249
 
 ## License
