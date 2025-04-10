@@ -54,25 +54,40 @@ the `P(W|T)` is the `emission` section and the `P(Ti)` is the transition section
 
 here is different accuracy from different N-gram model we can compare them together :
 
+
 Uni-gram :
 
+
 Accuracy: 25.5772
+
 Precision: 40.7354
+
 Recall: 40.7354
+
 F1-score: 40.7354
+
 
 Bigram :
 
+
 Accuracy: 92.4962
+
 Precision: 96.1019
+
 Recall: 96.1019
+
 F1-score: 96.1019
+
 
 Trigram :
 
+
 Accuracy: 92.3538
+
 Precision: 96.0249
+
 Recall: 96.0249
+
 F1-score: 96.0249
 
 ## License
